@@ -1,0 +1,117 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>data.sikuli\data.sikuli</h2> <a href="data.sikuli\data.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">import</span> shutil
+<span class="cmt">#coding=utf-8
+</span>sys.path.append(<span class="str">r"E:\data\SikuliLib"</span>)
+<span class="cmt">#from screenShot import screenShot
+</span>
+<span class="kw">def</span> pay():
+    <span class="skw">click</span>(<img src="chongZhi.png" />)
+    <span class="skw">click</span>(<img src="jinE.png" />)
+    <span class="skw">wait</span>(<span class="dig">3</span>)
+
+    <span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">2</span>):
+        <span class="skw">click</span>(<img src="money.png" />)
+
+    <span class="skw">click</span>(<img src="chongZhi2.png" />)
+    <span class="skw">wait</span>(<span class="dig">3</span>)
+    <span class="str">'''点击相关的测试图标'''</span>
+    <span class="skw">click</span>(<img src="chongZhi2.png" />)
+    <span class="skw">wait</span>(<span class="dig">5</span>)
+    <span class="skw">click</span>(<img src="chongZhi3.png" />)
+    <span class="skw">wait</span>(<span class="dig">2</span>)
+    <span class="skw">type</span>(<img src="jiaoYanMa.png" />,<span class="str">"1234"</span>)
+    <span class="skw">click</span>(<img src="queRenChongZhi.png" />)
+    <span class="skw">wait</span>(<span class="dig">10</span>)
+    <span class="skw">click</span>(<img src="wanCheng.png" />)
+
+<span class="kw">def</span> screenShots(imag):
+    screen=Screen()
+    rec=screen.getBounds()
+    region=Region(rec)
+    math=region.<span class="skw">find</span>(imag)
+    filename=screen.<span class="skw">capture</span>(math)
+    <span class="kw">print</span> filename
+    cpFile(filename,<img src="E:\\test.png" />)
+
+<span class="kw">def</span> cpFile(srcPath,destPath):
+        shutil.copyfile(srcPath,destPath)
+<span class="cmt">#program begin
+</span>
+<span class="kw">if</span> __name__==<span class="str">'__main__'</span>:
+        pay()
+        <span class="skw">wait</span>(<span class="dig">5</span>)
+        screenShots(<img src="shouYe.png" />);
+</pre>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[debug (15-8-19 12:29:12)] RunSetup: SikuliX Setup Build: 1.0.1 12NOV2013120000
+[debug (15-8-19 12:29:12)] RunSetup: ... starting with no args given
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Users\wangyukun-xy\Desktop\学习\自动化测试学习\sikuli\libs
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Python27\
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Python33\
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Python33\python.exe
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Program Files\Common Files\NetSarang
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Program Files\Intel\iCLS Client\
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Windows\system32
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Windows
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Windows\System32\Wbem
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Windows\System32\WindowsPowerShell\v1.0\
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Program Files\Intel\Intel(R) Management Engine Components\DAL
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Program Files\Intel\Intel(R) Management Engine Components\IPT
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Program Files\Java\jdk1.7.0_15\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Program Files\Java\jdk1.7.0_15\jre\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\apache-maven-3.2.3\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\MinGW\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\Eclipse\sdk\platform-tools
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\dex2jar
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\APKTool
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\onekey-decompile-apk
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\onekey-decompile-apk\_tools\apktool
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\onekey-decompile-apk\_tools\dex2jar
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\onekey-decompile-apk\_tools\jd-gui
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Program Files\Microsoft SQL Server\100\Tools\Binn\
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Program Files\Microsoft SQL Server\100\DTS\Binn\
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\strawberry\c\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\strawberry\perl\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\TortoiseSVN\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Python27\Scripts
+[debug (15-8-19 12:29:12)] RunSetup: syspath: E:\PythonX\Scripts
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\MinGW\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\Microsoft Visual Studio 9.0\VC
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Users\wangyukun-xy\AppData\Local\Google\Chrome\Application
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\Calibre2\
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\apache-ant-1.9.6\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\DevKit
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Ruby200\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\Microsoft Visual Studio\Common\Tools\WinNT
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\Microsoft Visual Studio\Common\Tools
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\Microsoft Visual Studio\VC98\bin
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\Eclipse\sdk\tools
+[debug (15-8-19 12:29:12)] RunSetup: syspath: D:\Program Files\Eclipse\sdk\tools
+[debug (15-8-19 12:29:12)] RunSetup: syspath: C:\Users\wangyukun-xy\AppData\Local\Pandoc\
+[debug (15-8-19 12:29:21)] RunSetup: Option UPDATE selected
+[debug (15-8-19 12:29:21)] RunSetup: checking for newer versions
+[debug (15-8-19 12:29:49)] No version info available at https://dl.dropbox.com/u/42895525/SikuliX
+[debug (15-8-19 12:29:51)] RunSetup: You already have the latest version!
+[debug (15-8-19 12:29:51)] RunSetup: Completed: checking for newer versions
+[debug (15-8-19 12:29:51)] RunSetup: user home: C:\Users\wangyukun-xy
+[debug (15-8-19 12:29:52)] RunSetup: RunningSystem: Windows 6.1
+[debug (15-8-19 12:29:52)] RunSetup: parent of jar/classes: C:/Users/wangyukun-xy/Desktop/学习/自动化测试学习/sikuli/
+[debug (15-8-19 12:29:52)] RunSetup: RunningJava: Java 7 (x86) 1.7.0_15-b03
+[debug (15-8-19 12:29:52)] RunSetup: ... could not detect whether Sikuli is used the first time on this system
+[debug (15-8-19 12:30:25)] FileManager: Downloading 1.0.1-2.jar having 10509 KB
+[debug (15-8-19 12:32:48)] FileManager: downloaded 10509 KB to C:\Users\wangyukun-xy\Desktop\学习\自动化测试学习\sikuli\1.0.1-2.jar
+[debug (15-8-19 12:32:48)] FileManager: download time: 142
+[debug (15-8-19 12:32:52)] RunSetup: Download ended
+[debug (15-8-19 12:32:52)] RunSetup: adding native stuff to sikuli-script.jar
+[debug (15-8-19 12:32:52)] FileManager: buildJar: C:\Users\wangyukun-xy\Desktop\学习\自动化测试学习\sikuli\sikuli-temp.jar
+[debug (15-8-19 12:32:52)] FileManager: buildJar: adding: C:\Users\wangyukun-xy\Desktop\学习\自动化测试学习\sikuli\sikuli-script.jar
+[debug (15-8-19 12:32:55)] FileManager: buildJar: adding: C:\Users\wangyukun-xy\Desktop\学习\自动化测试学习\sikuli\sikuli-setup.jar
+[debug (15-8-19 12:32:59)] FileManager: buildJar: completed
+[debug (15-8-19 12:32:59)] ResourceLoaderBasic: export: Trying to access package
+[debug (15-8-19 12:32:59)] ResourceLoaderBasic: export: Accessing jar: file:/C:/Users/wangyukun-xy/Desktop/%e5%ad%a6%e4%b9%a0/%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%8b%e8%af%95%e5%ad%a6%e4%b9%a0/sikuli/sikuli-setup.jar
+[debug (15-8-19 12:33:00)] ResourceLoaderBasic: export: Found 1 Files in Commands/windows/runScript.cmd
+[debug (15-8-19 12:33:00)] RunSetup: trying to set up the environment
+[debug (15-8-19 12:33:00)] ResourceLoaderBasic: check: we are running on arch: x86
+[debug (15-8-19 12:33:00)] ResourceLoaderBasic: check: using Java at: C:/Program Files/Java/jdk1.7.0_15/jre/
+[error (15-8-19 12:33:00)] ResourceLoaderBasic: check: No valid libs path available until now!
+[action (15-8-19 12:33:00)] ResourceLoaderBasic: check: Please wait! Trying to extract libs to jar parent folder: C:/Users/wangyukun-xy/Desktop/学习/自动化测试学习/sikuli/
+[debug (15-8-19 12:33:00)] ResourceLoaderBasic: extractLibs: Accessing jar: file:/C:/Users/wangyukun-xy/Desktop/%e5%ad%a6%e4%b9%a0/%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%8b%e8%af%95%e5%ad%a6%e4%b9%a0/sikuli/sikuli-setup.jar
+[debug (15-8-19 12:33:01)] ResourceLoaderBasic: extractLibs: Found 14 Files in META-INF/libs/windows/libs32/
+[debug (15-8-19 12:33:01)] ResourceLoaderBasic: export: Trying to access package
+[debug (15-8-19 12:33:01)] ResourceLoaderBasic: export: Accessing jar: file:/C:/Users/wangyukun-xy/Desktop/%e5%ad%a6%e4%b9%a0/%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%8b%e8%af%95%e5%ad%a6%e4%b9%a0/sikuli/sikuli-setup.jar
+[debug (15-8-19 12:33:01)] ResourceLoaderBasic: export: Found 0 Files in META-INF/libs/tessdata
+[debug (15-8-19 12:33:01)] ResourceLoaderBasic: checkLibsDir: C:\Users\wangyukun-xy\Desktop\学习\自动化测试学习\sikuli\libs
+[debug (15-8-19 12:33:01)] ResourceLoaderBasic: loadLib: WinUtil
+[debug (15-8-19 12:33:01)] ResourceLoaderBasic: loadLib: Found: WinUtil
+[debug (15-8-19 12:33:01)] ResourceLoaderBasic: loadLib: Now loaded: WinUtil
+[debug (15-8-19 12:33:01)] ResourceLoaderBasic: checkLibsDir: Using libs at: C:\Users\wangyukun-xy\Desktop\学习\自动化测试学习\sikuli\libs
+[debug (15-8-19 12:33:01)] ResourceLoaderBasic: export: Using this as OCR directory (tessdata) too
+[debug (15-8-19 12:33:06)] RunSetup: Trying to run functional test: running Jython statements via SikuliScript
+[debug (15-8-19 12:33:06)] SikuliX: before adding to classpath: C:\Users\wangyukun-xy\Desktop\学习\自动化测试学习\sikuli\sikuli-script.jar
+[debug (15-8-19 12:33:06)] SikuliX: 0: file:/C:/Users/wangyukun-xy/Desktop/%e5%ad%a6%e4%b9%a0/%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%8b%e8%af%95%e5%ad%a6%e4%b9%a0/sikuli/sikuli-setup.jar
+[debug (15-8-19 12:33:06)] SikuliX: after adding to classpath
+[debug (15-8-19 12:33:06)] SikuliX: 0: file:/C:/Users/wangyukun-xy/Desktop/%e5%ad%a6%e4%b9%a0/%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%8b%e8%af%95%e5%ad%a6%e4%b9%a0/sikuli/sikuli-setup.jar
+[debug (15-8-19 12:33:06)] SikuliX: 1: file:/C:/Users/wangyukun-xy/Desktop/学习/自动化测试学习/sikuli/sikuli-script.jar
+[debug (15-8-19 12:33:06)] RunSetup: trying to run testSetup.sikuli using SikuliScript
+[debug (15-8-19 12:33:09)] SikuliX Jython Support Build: 1.0.1 12SEP2013160248
+[debug (15-8-19 12:33:12)] JythonScriptRunner: : executeScriptHeader: adding SikuliX Lib path to sys.path
+C:\Users\wangyukun-xy\Desktop\学习\自动化测试学习\sikuli\sikuli-setup.jar\Lib
+[debug (15-8-19 12:33:12)] Jython: sikuli: __init__: entering
+[debug (15-8-19 12:33:12)] Jython: sikuli: Sikuli: entering
+[debug (15-8-19 12:33:12)] Jython: sikuli: Sikuli: constants
+[debug (15-8-19 12:33:12)] Jython: sikuli: Sikuli: import Region
+[debug (15-8-19 12:33:13)] Jython: sikuli: Sikuli: import Screen
+[debug (15-8-19 12:33:13)] Jython: sikuli: Sikuli: Env.addHotkey
+[debug (15-8-19 12:33:13)] Jython: sikuli: Sikuli: import Match
+[debug (15-8-19 12:33:13)] Jython: sikuli: Sikuli: import Pattern
+[debug (15-8-19 12:33:13)] Jython: sikuli: Sikuli: import Location
+[debug (15-8-19 12:33:13)] Jython: sikuli: Sikuli: import ScreenUnion
+[debug (15-8-19 12:33:13)] Jython: sikuli: Sikuli: import Finder
+[debug (15-8-19 12:33:13)] ResourceLoaderBasic: loadLib: VisionProxy
+[debug (15-8-19 12:33:13)] ResourceLoaderBasic: loadLib: Found: VisionProxy
+[debug (15-8-19 12:33:14)] ResourceLoaderBasic: loadLib: Now loaded: VisionProxy
+[debug (15-8-19 12:33:14)] Jython: sikuli: Sikuli: import App
+[debug (15-8-19 12:33:14)] ResourceLoaderBasic: loadLib: Is already loaded: WinUtil
+[debug (15-8-19 12:33:14)] Screen: initScreens: basic initialization (1 Screen(s) found)
+[debug (15-8-19 12:33:14)] *** monitor configuration (primary: 0) ***
+[debug (15-8-19 12:33:14)] Screen 0: S(0)[0,0 1920x1080]
+[debug (15-8-19 12:33:14)] *** end monitor configuration ***
+[debug (15-8-19 12:33:14)] Jython: sikuli: Sikuli: import Key
+[debug (15-8-19 12:33:14)] Jython: sikuli: Sikuli: import from Basics
+[debug (15-8-19 12:33:14)] Jython: sikuli: Sikuli: import from compare
+[debug (15-8-19 12:33:14)] Jython: sikuli: Sikuli: init SikuliImporter
+[debug (15-8-19 12:33:14)] Jython: sikuli: Sikuli: import SikuliScript
+[debug (15-8-19 12:33:14)] Jython: init SCREEN as ()
+[debug (15-8-19 12:33:14)] Sikuli-Script startup: 5032
+[debug (15-8-19 12:33:22)] RunSetup: ... SikuliX Setup seems to have ended successfully ;-)

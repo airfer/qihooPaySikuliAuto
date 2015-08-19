@@ -3,25 +3,35 @@ import shutil
 #sys.path.append(r"E:\data\SikuliLib")
 #from screenShot import screenShot
 
-def pay():
-    click("chongZhi.png")
-    click("jinE.png")
-    wait(3)
-
-    for i in range(2):
-        click("money.png")
-
-    click("chongZhi2.png")
-    wait(3)
-    '''点击相关的测试图标'''
-    click("chongZhi2.png")
-    wait(5)
-    click("chongZhi3.png")
-    wait(2)
-    type("jiaoYanMa.png","1234")
-    click("queRenChongZhi.png")
-    wait(10)    
-    click("wanCheng.png")
+def withdraw():
+	click("tiXian.png")
+	wait(5)
+	'''
+	* 输入密码，密码为147258
+	* 密码的输入也可以转换为for循环输入
+	'''
+	click("miMa1.png")
+	click("miMa4.png")
+	click("miMa7.png")
+	click("miMa2.png")
+	click("miMa5.png")
+	click("miMa8.png")
+	
+	wait(2)
+	# 提现也同样提11元，当然并非一定要如此
+	click("jinE.png")
+	wait(2)
+	
+	for num in range(2):
+		click("miMa1.png")
+	wait(2)
+	click("xiaYiBu.png")
+	#确定发生了点击，但是第一次点击导致键盘退回
+	wait(1)
+	click("xiaYiBu.png")
+	wait(3)
+	'''点击相关的测试图标'''
+	click("wanCheng.png")
   
 def screenShots(imag,desPath):
 	screen=Screen()
@@ -42,19 +52,19 @@ def cpFile(srcPath,destPath):
 	shutil.copyfile(srcPath,destPath)
 	
 def writefile(info):
-	filename=r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\Result_Info_Report.txt"
+	filename=r"E:\Github\qihooPaySikuliAuto\data\Withdraw\result\Result_Info_Report.txt"
 	file=open(filename,'w+')
 	file.write(info)
 	file.close()
 
 	
 def main():
-	flag=screenShots("shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\begin.png")
+	flag=screenShots("shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Withdraw\result\begin.png")
 	if(flag==1):
 		print "find Failed!"
-	pay()
+	withdraw()
 	wait(5)
-	screenShots("shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\end.png");
+	screenShots("shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Withdraw\result\end.png");
 	tag="""
 	------------------------------------------------------------------------
 	* The testting framwork was develped based on sikuli.Now it is used for 

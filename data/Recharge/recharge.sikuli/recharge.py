@@ -1,7 +1,11 @@
-import shutil
+
 #coding=utf-8
 #sys.path.append(r"E:\data\SikuliLib")
-#from screenShot import screenShot
+sys.path.append(r"E:\Github\qihooPaySikuliAuto\setting\\")
+sys.path.append(r"E:\Github\qihooPaySikuliAuto\lib\\")
+from setInfo import qihooSetting
+from constant import qihooConstant
+from qihooCommLib import qihooCommLib
 
 def pay():
     click("chongZhi.png")
@@ -22,7 +26,7 @@ def pay():
     click("queRenChongZhi.png")
     wait(10)    
     click("wanCheng.png")
-  
+'''  
 def screenShots(imag,desPath):
 	screen=Screen()
 	rec=screen.getBounds()
@@ -46,34 +50,31 @@ def writefile(info):
 	file=open(filename,'w+')
 	file.write(info)
 	file.close()
+'''
 
-	
 def main():
-	flag=screenShots("shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\begin.png")
+	#增加配置信息
+	qihooSetting.init(Settings,Debug)
+	
+	#生成公共类库对象
+	commlib=qihooCommLib()
+	
+	#用于生成screen的相关数据信息
+	screen=Screen()
+	rec=screen.getBounds()
+	region=Region(rec)
+	
+	#截图用于报告输出
+	flag=commlib.screenShots(screen,region,"shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\begin.png")
 	if(flag==1):
 		print "find Failed!"
 	pay()
 	wait(5)
-	screenShots("shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\end.png");
-	tag="""
-	------------------------------------------------------------------------
-	* The testting framwork was develped based on sikuli.Now it is used for 
-	* qihoo360 pay auto testting.The information of author can be found as 
-	* following.
-	* @author Airong's home wangyukun
-	* @email wangyukkun-xy@360.cn
-	------------------------------------------------------------------------
-	"""
-	info="""
-	1、The amount of recharge is 11 yuan
-	2、The begin.png in the result folder is the init state of the app
-	3、The end.png in the result folder is the final state of the app
-
-    result check:
-		if difference of cash balance betweent the two picture is 11yuan,the 
-		result indicates success,or fail!
-	"""
-	writefile(tag+info)
+	commlib.screenShots(screen,region,"shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\end.png");
+	
+    #报告文件写入
+	commlib.writefile(qihooConstant.TAG+qihooConstant.RECHARGE_RESULT)
+	
 #program begin
 
 if __name__=='__main__':

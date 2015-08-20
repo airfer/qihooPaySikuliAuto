@@ -1,0 +1,13 @@
+[log] CLICK on L(979,585)@S(0)[0,0 1920x1080]
+[log] CLICK on L(862,211)@S(0)[0,0 1920x1080]
+[log] CLICK on L(786,668)@S(0)[0,0 1920x1080]
+[log] CLICK on L(786,668)@S(0)[0,0 1920x1080]
+[log] CLICK on L(979,316)@S(0)[0,0 1920x1080]
+[log] CLICK on L(979,316)@S(0)[0,0 1920x1080]
+[log] CLICK on L(850,507)@S(0)[0,0 1920x1080]
+[log] CLICK on L(835,556)@S(0)[0,0 1920x1080]
+[log] TYPE "1234"
+[log] CLICK on L(854,649)@S(0)[0,0 1920x1080]
+[log] CLICK on L(977,365)@S(0)[0,0 1920x1080]
+[error] script stopped with error in line 81
+[error] FindFailed ( can not find shouYe.png on the screen. )

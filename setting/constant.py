@@ -34,3 +34,7 @@ class qihooConstant:
 		if difference of cash balance betweent the two picture is 11yuan,the 
 		result indicates success,or fail!
 	"""
+	
+	RECHARGE_RESULT_PATH=r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\\"
+	
+	WITHDRAW_RESULT_PATH=r"E:\Github\qihooPaySikuliAuto\data\Withdraw\result\\"

@@ -28,8 +28,8 @@ class qihooCommLib:
 	def cpFile(self,srcPath,destPath):
 		shutil.copyfile(srcPath,destPath)
 	
-	def writefile(self,info):
-		filename=r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\Result_Info_Report.txt"
+	def writefile(self,info,path):
+		filename=path+r"Result_Info_Report.txt"
 		file=open(filename,'w+')
 		file.write(info)
 		file.close()

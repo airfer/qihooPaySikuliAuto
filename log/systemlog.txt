@@ -1,13 +1,19 @@
-[log] CLICK on L(979,585)@S(0)[0,0 1920x1080]
-[log] CLICK on L(862,211)@S(0)[0,0 1920x1080]
-[log] CLICK on L(786,668)@S(0)[0,0 1920x1080]
-[log] CLICK on L(786,668)@S(0)[0,0 1920x1080]
-[log] CLICK on L(979,316)@S(0)[0,0 1920x1080]
-[log] CLICK on L(979,316)@S(0)[0,0 1920x1080]
-[log] CLICK on L(850,507)@S(0)[0,0 1920x1080]
-[log] CLICK on L(835,556)@S(0)[0,0 1920x1080]
-[log] TYPE "1234"
-[log] CLICK on L(854,649)@S(0)[0,0 1920x1080]
-[log] CLICK on L(977,365)@S(0)[0,0 1920x1080]
-[error] script stopped with error in line 81
-[error] FindFailed ( can not find shouYe.png on the screen. )
+[log] CLICK on L(964,674)@S(0)[0,0 1920x1080]
+[log] CLICK on L(776,670)@S(0)[0,0 1920x1080]
+[log] CLICK on L(778,750)@S(0)[0,0 1920x1080]
+[log] CLICK on L(783,834)@S(0)[0,0 1920x1080]
+[log] CLICK on L(968,674)@S(0)[0,0 1920x1080]
+[log] CLICK on L(964,753)@S(0)[0,0 1920x1080]
+[log] CLICK on L(967,834)@S(0)[0,0 1920x1080]
+[log] CLICK on L(870,323)@S(0)[0,0 1920x1080]
+[log] CLICK on L(776,670)@S(0)[0,0 1920x1080]
+[log] CLICK on L(776,670)@S(0)[0,0 1920x1080]
+[log] CLICK on L(964,498)@S(0)[0,0 1920x1080]
+[log] CLICK on L(964,498)@S(0)[0,0 1920x1080]
+[log] CLICK on L(966,441)@S(0)[0,0 1920x1080]
+[error] script stopped with error in line 91
+[error] TypeError ( writefile() takes exactly 3 arguments (2 given) )
+[error] --- Traceback --- error source first
+line: module ( function ) statement 
+86: main (  main )     commlib.writefile(qihooConstant.TAG+qihooConstant.WITHDRAW_RESULT)
+[error] --- Traceback --- end --------------

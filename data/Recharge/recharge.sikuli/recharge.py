@@ -54,7 +54,7 @@ def writefile(info):
 
 def main():
 	#增加配置信息
-	qihooSetting.init(Settings,Debug)
+	#qihooSetting.init(Settings,Debug)
 	
 	#生成公共类库对象
 	commlib=qihooCommLib()
@@ -65,15 +65,15 @@ def main():
 	region=Region(rec)
 	
 	#截图用于报告输出
-	flag=commlib.screenShots(screen,region,"shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\begin.png")
+	flag=commlib.screenShots(screen,region,"shouYe.png",qihooConstant.RECHARGE_RESULT_PATH+r"begin.png")
 	if(flag==1):
 		print "find Failed!"
 	pay()
 	wait(5)
-	commlib.screenShots(screen,region,"shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\end.png");
+	commlib.screenShots(screen,region,"shouYe.png",qihooConstant.RECHARGE_RESULT_PATH+r"end.png");
 	
     #报告文件写入
-	commlib.writefile(qihooConstant.TAG+qihooConstant.RECHARGE_RESULT)
+	commlib.writefile(qihooConstant.TAG+qihooConstant.RECHARGE_RESULT,qihooConstant.RECHARGE_RESULT_PATH)
 	
 #program begin
 

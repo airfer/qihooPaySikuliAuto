@@ -75,15 +75,15 @@ def main():
 	region=Region(rec)
 	
 	#截图用于报告输出
-	flag=commlib.screenShots(screen,region,"shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Withdraw\result\begin.png")
+	flag=commlib.screenShots(screen,region,"shouYe.png",qihooConstant.WITHDRAW_RESULT_PAHT+r"begin.png")
 	if(flag==1):
 		print "find Failed!"
 	withdraw()
 	wait(5)
-	commlib.screenShots(screen,region,"shouYe.png",r"E:\Github\qihooPaySikuliAuto\data\Withdraw\result\end.png");
+	commlib.screenShots(screen,region,"shouYe.png",qihooConstant.WITHDRAW_RESULT_PAHT+r"end.png");
 	
     #报告文件写入
-	commlib.writefile(qihooConstant.TAG+qihooConstant.WITHDRAW_RESULT)
+	commlib.writefile(qihooConstant.TAG+qihooConstant.WITHDRAW_RESULT,qihooConstant.WITHDRAW_RESULT_PAHT)
 	
 #program begin
 

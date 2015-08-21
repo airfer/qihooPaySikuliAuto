@@ -35,6 +35,15 @@ class qihooConstant:
 		result indicates success,or fail!
 	"""
 	
+	CHANGE_PASSWORD_RESULT="""
+	1、The orignal password is 147258, if the password is changed ,the new password
+	   is 147369.
+	2、In order to make the following test normal, the new password will be changed
+	   to 147258 after the testcase finish.
+	"""
+	
 	RECHARGE_RESULT_PATH=r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\\"
 	
 	WITHDRAW_RESULT_PATH=r"E:\Github\qihooPaySikuliAuto\data\Withdraw\result\\"
+	
+	CHANGE_PASSWORD_RESULT_PATH=r"E:\Github\qihooPaySikuliAuto\data\ChangePassword\result\\"

@@ -1,19 +1,29 @@
-[log] CLICK on L(964,674)@S(0)[0,0 1920x1080]
-[log] CLICK on L(776,670)@S(0)[0,0 1920x1080]
-[log] CLICK on L(778,750)@S(0)[0,0 1920x1080]
-[log] CLICK on L(783,834)@S(0)[0,0 1920x1080]
-[log] CLICK on L(968,674)@S(0)[0,0 1920x1080]
-[log] CLICK on L(964,753)@S(0)[0,0 1920x1080]
-[log] CLICK on L(967,834)@S(0)[0,0 1920x1080]
-[log] CLICK on L(870,323)@S(0)[0,0 1920x1080]
-[log] CLICK on L(776,670)@S(0)[0,0 1920x1080]
-[log] CLICK on L(776,670)@S(0)[0,0 1920x1080]
-[log] CLICK on L(964,498)@S(0)[0,0 1920x1080]
-[log] CLICK on L(964,498)@S(0)[0,0 1920x1080]
-[log] CLICK on L(966,441)@S(0)[0,0 1920x1080]
-[error] script stopped with error in line 91
-[error] TypeError ( writefile() takes exactly 3 arguments (2 given) )
+[log] CLICK on L(1208,107)@S(0)[0,0 1920x1080]
+[log] CLICK on L(1100,304)@S(0)[0,0 1920x1080]
+[log] CLICK on L(822,191)@S(0)[0,0 1920x1080]
+[log] CLICK on L(766,670)@S(0)[0,0 1920x1080]
+[log] CLICK on L(767,750)@S(0)[0,0 1920x1080]
+[log] CLICK on L(772,834)@S(0)[0,0 1920x1080]
+[log] CLICK on L(957,674)@S(0)[0,0 1920x1080]
+[log] CLICK on L(953,753)@S(0)[0,0 1920x1080]
+[log] CLICK on L(956,834)@S(0)[0,0 1920x1080]
+[log] CLICK on L(766,670)@S(0)[0,0 1920x1080]
+[log] CLICK on L(767,750)@S(0)[0,0 1920x1080]
+[log] CLICK on L(772,834)@S(0)[0,0 1920x1080]
+[log] CLICK on L(1144,670)@S(0)[0,0 1920x1080]
+[log] CLICK on L(1149,753)@S(0)[0,0 1920x1080]
+[log] CLICK on L(1144,832)@S(0)[0,0 1920x1080]
+[log] CLICK on L(765,670)@S(0)[0,0 1920x1080]
+[log] CLICK on L(767,750)@S(0)[0,0 1920x1080]
+[log] CLICK on L(772,834)@S(0)[0,0 1920x1080]
+[log] CLICK on L(1144,670)@S(0)[0,0 1920x1080]
+[log] CLICK on L(1149,753)@S(0)[0,0 1920x1080]
+[log] CLICK on L(1144,832)@S(0)[0,0 1920x1080]
+[log] CLICK on L(945,362)@S(0)[0,0 1920x1080]
+[error] script stopped with error in line 84
+[error] NameError ( global name 'commlib' is not defined )
 [error] --- Traceback --- error source first
 line: module ( function ) statement 
-86: main (  main )     commlib.writefile(qihooConstant.TAG+qihooConstant.WITHDRAW_RESULT)
+58: main (  changePassword )     commlib.screenShots(screen,region,"miMaGuanLiYe.png",qihooConstant.CHANGE_PASSWORD_RESULT_PAHT+resultPic)
+77: main (  main )     changePassword(True,Screen,Region)
 [error] --- Traceback --- end --------------

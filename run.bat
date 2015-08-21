@@ -14,9 +14,12 @@ set SOURCE_PATH=E:\Github\qihooPaySikuliAuto\data
 set RUN_SCRIPT=%SIKULI_PATH%\runScript.cmd
 set RECHARGE=%SOURCE_PATH%\Recharge\recharge.sikuli
 set WITHDRAW=%SOURCE_PATH%\Withdraw\withdraw.sikuli
+set CHANGE_PASSWORD=%SOURCE_PATH%\ChangePassword\changePassword.sikuli
 
 echo %SOURCE_PATH%
 echo %RUN_SCRIPT%
 echo %RECHARGE%
-call %RUN_SCRIPT% -c -r %RECHARGE%
-call %RUN_SCRIPT% -c -r %WITHDRAW%
+::call %RUN_SCRIPT% -c -r %RECHARGE%
+::call %RUN_SCRIPT% -c -r %WITHDRAW%
+
+call %RUN_SCRIPT% -c -r %CHANGE_PASSWORD%

@@ -42,8 +42,16 @@ class qihooConstant:
 	   to 147258 after the testcase finish.
 	"""
 	
+	MY_BANKCARD_RESULT="""
+	1、The result of the case is unbind the card successfully.
+	2、Taking it execute success if there is no errors happended ,no scrrenshots is taken
+	3、It also can be taken as success,if you can see this reult file.
+	"""
+	
 	RECHARGE_RESULT_PATH=r"E:\Github\qihooPaySikuliAuto\data\Recharge\result\\"
 	
 	WITHDRAW_RESULT_PATH=r"E:\Github\qihooPaySikuliAuto\data\Withdraw\result\\"
 	
 	CHANGE_PASSWORD_RESULT_PATH=r"E:\Github\qihooPaySikuliAuto\data\ChangePassword\result\\"
+	
+	MY_BANKCARD_RESULT_PATH=r"E:\Github\qihooPaySikuliAuto\data\MyBankcard\result\\"

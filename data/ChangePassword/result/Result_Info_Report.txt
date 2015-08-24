@@ -1,0 +1,14 @@
+
+	------------------------------------------------------------------------
+	* The testting framwork was develped based on sikuli.Now it is used for 
+	* qihoo360 pay auto testting.The information of author can be found as 
+	* following.
+	* @author Airong's home wangyukun
+	* @email wangyukun-xy@360.cn
+	------------------------------------------------------------------------
+	
+	1、The orignal password is 147258, if the password is changed ,the new password
+	   is 147369.
+	2、In order to make the following test normal, the new password will be changed
+	   to 147258 after the testcase finish.
+	

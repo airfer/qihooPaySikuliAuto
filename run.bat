@@ -15,6 +15,7 @@ set RUN_SCRIPT=%SIKULI_PATH%\runScript.cmd
 set RECHARGE=%SOURCE_PATH%\Recharge\recharge.sikuli
 set WITHDRAW=%SOURCE_PATH%\Withdraw\withdraw.sikuli
 set CHANGE_PASSWORD=%SOURCE_PATH%\ChangePassword\changePassword.sikuli
+set MY_BANKCARD=%SOURCE_PATH%\MyBankcard\myBankcard.sikuli
 
 echo %SOURCE_PATH%
 echo %RUN_SCRIPT%
@@ -23,3 +24,5 @@ echo %RECHARGE%
 ::call %RUN_SCRIPT% -c -r %WITHDRAW%
 
 call %RUN_SCRIPT% -c -r %CHANGE_PASSWORD%
+
+::call %RUN_SCRIPT% -c -r %MY_BANKCARD%

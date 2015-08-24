@@ -31,6 +31,7 @@ def changePassword(type,screen,region,commlib):
 	click("sanDian.png")
 	click("miMaGuanli.png")
 	click("xiuGaiZhiFuMiMa.png")
+	wait(3)
 	
 	'''
 	* 原密码为147258，将其改为147369，
@@ -55,7 +56,7 @@ def changePassword(type,screen,region,commlib):
 		resultPic=r"result1.png"
 	elif type==False:
 		resultPic=r"result2.png"
-	commlib.screenShots(screen,region,"miMaGuanLiYe.png",qihooConstant.CHANGE_PASSWORD_RESULT_PATH+resultPic)
+	#commlib.screenShots(screen,region,"miMaGuanLiYe.png",qihooConstant.CHANGE_PASSWORD_RESULT_PATH+resultPic)
 	wait(1)
 	click("fanHui.png")
 	
@@ -75,6 +76,11 @@ def main():
 	
 	#截图用于报告输出
 	changePassword(True,Screen,Region,commlib)
+	'''
+	两次密码修改的时间要有个差值，否则其找不到相关的图片
+	'''
+	wait(5)
+	changePassword(False,Screen,Region,commlib)
     #报告文件写入
 	commlib.writefile(qihooConstant.TAG+qihooConstant.CHANGE_PASSWORD_RESULT,qihooConstant.CHANGE_PASSWORD_RESULT_PATH)
 	
